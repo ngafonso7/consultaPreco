@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="26dp"
+        android:text="Codigo Interno/Barras"
+        android:textSize="40sp" />
+    
+    <EditText
+        android:id="@+id/txtCodigo"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="phone"
+        android:textSize="38dp"
+        android:selectAllOnFocus="true">
+
+        <requestFocus/>
+
+        </EditText>
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="80dp"
+        android:textSize="35dp"
+        android:text="[P]" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="80dp"
+        android:textSize="30dp"
+        android:text="[ETQ]" />
+    
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="170dp"
+        android:text="Descrição"
+        android:textSize="40sp" />
+    <EditText
+        android:id="@+id/txtDescricao"
+        android:layout_width="480dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:gravity="start"
+        android:textSize="35dp"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_centerHorizontal="true"
+        android:text="Preço"
+        android:textSize="40sp" />
+    
+    <EditText
+        android:id="@+id/txtPreco"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:textSize="35dp"
+        />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_centerHorizontal="true"
+        android:text="Estoque"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/txtEstoque"
+        android:layout_width="300dp"
+        android:layout_height="90sp"
+        android:layout_marginTop="610dp"
+        android:layout_centerHorizontal="true"
+        android:selectAllOnFocus="true"
+         /></RelativeLayout>
